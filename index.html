@@ -1,117 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="https://kit.fontawesome.com/aac5e3d248.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script
+      src="https://kit.fontawesome.com/aac5e3d248.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <div class="header">
-            <nav class="nav">
-                <div class="profile-container">
-                    <img class="profile-picture" src="./pictures/1568385960050.jpg" alt="">
-                    <div class="title-container">
-                        <p class="title">Stephen Jones</p>
-                        <p class="role-title">Web Developer</p>
-                    </div>
-    
-                </div>
-                <div class="nav-links">
-                    <a href="index.html"><div class="nav-link active-link">PORTFOLIO</div></a>
-                    <a href="about.html">
-                        <div class="nav-link">
-                            ABOUT ME
-                        </div>
-                    </a>
-                </div>
-                <div class="container-email"><p>Email: stephen-jones@hotmail.co.uk</p></div>
-            </nav>
-
-        </div>
-        <div class="mobile-header-container">
-            <div class="mobile-header">
-                <div class="profile-container mobile-profile-container">
-                    <img class="profile-picture" src="./pictures/1568385960050.jpg" alt="">
-                    <div class="title-container">
-                        <p class="title">Stephen Jones</p>
-                        <p class="role-title">Web Developer</p>
-                    </div>
-                </div>
-                <i class="fas fa-bars nav-burger"></i>
-    
-    
+      <div class="header">
+        <nav class="nav">
+          <div class="profile-container">
+            <img
+              class="profile-picture"
+              src="./pictures/1568385960050.jpg"
+              alt=""
+            />
+            <div class="title-container">
+              <p class="title">Stephen Jones</p>
+              <p class="role-title">Web Developer</p>
             </div>
-
+          </div>
+          <div class="nav-links">
+            <a href="index.html"
+              ><div class="nav-link active-link">PORTFOLIO</div></a
+            >
+            <a href="design.html"> <div class="nav-link">DESIGN</div></a>
+            <a href="about.html">
+              <div class="nav-link">ABOUT ME</div>
+            </a>
+          </div>
+          <div class="container-email">
+            <p>Email: stephen-jones@hotmail.co.uk</p>
+          </div>
+        </nav>
+      </div>
+      <div class="mobile-header-container">
+        <div class="mobile-header">
+          <div class="profile-container mobile-profile-container">
+            <img
+              class="profile-picture"
+              src="./pictures/1568385960050.jpg"
+              alt=""
+            />
+            <div class="title-container">
+              <p class="title">Stephen Jones</p>
+              <p class="role-title">Web Developer</p>
+            </div>
+          </div>
+          <i class="fas fa-bars nav-burger"></i>
         </div>
-
+      </div>
     </header>
     <main class="main">
-        <button class="contact-link">   
-            <a href="about.html"> <div class="contact-link-text">ABOUT ME</div></a>         
-           
-        </button>
-        
-        <div class="portfolio-container">
-            <div class="portfolio-tiles tile-1">
-                <div class="overlay"></div>
-                <div class="current-project-overlay"><h2 class="current-project-overlay-text">Full-stack with auth</h2></div>
+      <button class="contact-link">
+        <a href="about.html"> <div class="contact-link-text">About me</div></a>
+      </button>
 
-                <div class="tiles-text-container">
-                    <h2 class="tile-title">Project Manager </h2>
-                    <button class="tile-project-btn"><p>View Project</p><a href="https://tuesdayprojectmanager.azurewebsites.net/">
-                        <button class="tile-project-btn"><p>View Project</p></button>
-                    </a>
-                    </button>
-                    <button class="tile-github-btn"><a href="https://github.com/stephen-jonesy/dotnet_tuesday_custom_auth.git"><p class="tile-btn-text">View GetHub</p></a></button>
-                    
-                </div>
-            </div>
-            <div class="portfolio-tiles tile-1">
-                <div class="overlay"></div>
-                <div class="current-project-overlay"><h2 class="current-project-overlay-text">Front-end only</h2></div>
+      <div class="portfolio-container">
+        <div class="portfolio-tiles tile-1">
+          <div class="overlay"></div>
+          <div class="current-project-overlay">
+            <h2 class="current-project-overlay-text">Full-stack with auth</h2>
+          </div>
 
-                <div class="tiles-text-container">
-                    <h2 class="tile-title">Project Manager </h2>
-                    <button class="tile-project-btn"><p>View Project</p><a href="https://stephen-jonesy.github.io/personal_project_manager/">
-                        <button class="tile-project-btn"><p>View Project</p></button>
-                    </a>
-                    </button>
-                    <button class="tile-github-btn"><a href="https://github.com/stephen-jonesy/personal_project_manager.git"><p class="tile-btn-text">View GetHub</p></a></button>
-                    
-                </div>
-            </div>
-            <div class="portfolio-tiles tile-5">
-                <div class="overlay"></div>
+          <div class="tiles-text-container">
+            <h2 class="tile-title">Project Manager</h2>
+            <button class="tile-project-btn">
+              <p>View Project</p>
+              <a href="https://tuesdayprojectmanager.azurewebsites.net/">
+                <button class="tile-project-btn"><p>View Project</p></button>
+              </a>
+            </button>
+            <button class="tile-github-btn">
+              <a
+                href="https://github.com/stephen-jonesy/dotnet_tuesday_custom_auth.git"
+                ><p class="tile-btn-text">View GetHub</p></a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="portfolio-tiles tile-1">
+          <div class="overlay"></div>
+          <div class="current-project-overlay">
+            <h2 class="current-project-overlay-text">Front-end only</h2>
+          </div>
 
-                <div class="tiles-text-container">
-                    <h2 class="tile-title">Movie Flix </h2>
-                    <button class="tile-project-btn"><p>View Project</p><a href="https://stephen-jonesy.github.io/movieFlix/">
-                        <button class="tile-project-btn"><p>View Project</p></button>
-                    </a>
-                    </button>
-                    <button class="tile-github-btn"><a href="https://github.com/stephen-jonesy/movieFlix.git"><p class="tile-btn-text">View GetHub</p></a></button>
-                    
-                </div>
-            </div>
-            <div class="portfolio-tiles tile-2">
-                <div class="overlay"></div>
+          <div class="tiles-text-container">
+            <h2 class="tile-title">Project Manager</h2>
+            <button class="tile-project-btn">
+              <p>View Project</p>
+              <a
+                href="https://stephen-jonesy.github.io/personal_project_manager/"
+              >
+                <button class="tile-project-btn"><p>View Project</p></button>
+              </a>
+            </button>
+            <button class="tile-github-btn">
+              <a
+                href="https://github.com/stephen-jonesy/personal_project_manager.git"
+                ><p class="tile-btn-text">View GetHub</p></a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="portfolio-tiles tile-5">
+          <div class="overlay"></div>
 
-                <div class="tiles-text-container">
-                    <h2 class="tile-title">Nikki Hopkins Portfolio </h2>
-                    <button class="tile-project-btn"><p>View Project</p><a href="https://nikkihopkins.co.uk">
-                        <button class="tile-project-btn"><p>View Project</p></button>
-                    </a>
-                    </button>
-                    <button class="tile-github-btn"><a href="https://github.com/stephen-jonesy/nikki-Hopkins-portfolio"><p class="tile-btn-text">View GetHub</p></a></button>
-                    
-                </div>
-            </div>
-            <!-- <div class="portfolio-tiles tile-4">
+          <div class="tiles-text-container">
+            <h2 class="tile-title">Movie Flix</h2>
+            <button class="tile-project-btn">
+              <p>View Project</p>
+              <a href="https://stephen-jonesy.github.io/movieFlix/">
+                <button class="tile-project-btn"><p>View Project</p></button>
+              </a>
+            </button>
+            <button class="tile-github-btn">
+              <a href="https://github.com/stephen-jonesy/movieFlix.git"
+                ><p class="tile-btn-text">View GetHub</p></a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="portfolio-tiles tile-2">
+          <div class="overlay"></div>
+
+          <div class="tiles-text-container">
+            <h2 class="tile-title">Nikki Hopkins Portfolio</h2>
+            <button class="tile-project-btn">
+              <p>View Project</p>
+              <a href="https://nikkihopkins.co.uk">
+                <button class="tile-project-btn"><p>View Project</p></button>
+              </a>
+            </button>
+            <button class="tile-github-btn">
+              <a
+                href="https://github.com/stephen-jonesy/nikki-Hopkins-portfolio"
+                ><p class="tile-btn-text">View GetHub</p></a
+              >
+            </button>
+          </div>
+        </div>
+        <!-- <div class="portfolio-tiles tile-4">
                 <div class="overlay"></div>
                 <div class="tiles-text-container">
                     <h2 class="tile-title">Cycle</h2>
@@ -122,10 +164,8 @@
                 </div>
 
             </div> -->
-
-        </div>
+      </div>
     </main>
     <script src="app.js"></script>
-    
-</body>
+  </body>
 </html>
